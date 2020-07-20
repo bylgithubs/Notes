@@ -13,6 +13,14 @@
 		646AE6AA24C57B6D00FD2D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646AE6A924C57B6D00FD2D16 /* Assets.xcassets */; };
 		646AE6AD24C57B6D00FD2D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646AE6AB24C57B6D00FD2D16 /* LaunchScreen.storyboard */; };
 		646AE6B024C57B6D00FD2D16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 646AE6AF24C57B6D00FD2D16 /* main.m */; };
+		646AE6C824C587E300FD2D16 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 646AE6BE24C587E300FD2D16 /* libstdc++.6.0.9.tbd */; };
+		646AE6C924C587E300FD2D16 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 646AE6C024C587E300FD2D16 /* libstdc++.6.0.9.tbd */; };
+		646AE6CA24C587E300FD2D16 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 646AE6C124C587E300FD2D16 /* libstdc++.6.tbd */; };
+		646AE6CB24C587E300FD2D16 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 646AE6C224C587E300FD2D16 /* libstdc++.tbd */; };
+		646AE6CC24C587E300FD2D16 /* 升级教程.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 646AE6C324C587E300FD2D16 /* 升级教程.rtf */; };
+		646AE6CD24C587E300FD2D16 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 646AE6C524C587E300FD2D16 /* libstdc++.6.dylib */; };
+		646AE6CE24C587E300FD2D16 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 646AE6C624C587E300FD2D16 /* libstdc++.6.0.9.dylib */; };
+		646AE6CF24C587E300FD2D16 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 646AE6C724C587E300FD2D16 /* libstdc++.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +35,24 @@
 		646AE6AE24C57B6D00FD2D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		646AE6AF24C57B6D00FD2D16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		646AE6B624C57BC200FD2D16 /* PropertyAndSynthsize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyAndSynthsize.h; sourceTree = "<group>"; };
+		646AE6B724C5806700FD2D16 /* PrintBoolType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintBoolType.h; sourceTree = "<group>"; };
+		646AE6B824C5836E00FD2D16 /* Loadimage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Loadimage.h; sourceTree = "<group>"; };
+		646AE6BA24C5842700FD2D16 /* SmartGitActive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartGitActive.h; sourceTree = "<group>"; };
+		646AE6BB24C5847900FD2D16 /* FrameBoundsCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameBoundsCenter.h; sourceTree = "<group>"; };
+		646AE6BC24C5877A00FD2D16 /* ISAPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISAPoint.h; sourceTree = "<group>"; };
+		646AE6BE24C587E300FD2D16 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = "libstdc++.6.0.9.tbd"; sourceTree = "<group>"; };
+		646AE6C024C587E300FD2D16 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = "libstdc++.6.0.9.tbd"; sourceTree = "<group>"; };
+		646AE6C124C587E300FD2D16 /* libstdc++.6.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = "libstdc++.6.tbd"; sourceTree = "<group>"; };
+		646AE6C224C587E300FD2D16 /* libstdc++.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = "libstdc++.tbd"; sourceTree = "<group>"; };
+		646AE6C324C587E300FD2D16 /* 升级教程.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "升级教程.rtf"; sourceTree = "<group>"; };
+		646AE6C524C587E300FD2D16 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libstdc++.6.dylib"; sourceTree = "<group>"; };
+		646AE6C624C587E300FD2D16 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libstdc++.6.0.9.dylib"; sourceTree = "<group>"; };
+		646AE6C724C587E300FD2D16 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libstdc++.dylib"; sourceTree = "<group>"; };
+		646AE6D024C5882700FD2D16 /* Xml转NSDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Xml转NSDictionary.h"; sourceTree = "<group>"; };
+		646AE6D124C589C100FD2D16 /* DealWithImageArithmetic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DealWithImageArithmetic.h; sourceTree = "<group>"; };
+		646AE6D224C58AAC00FD2D16 /* LazyLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LazyLoading.h; sourceTree = "<group>"; };
+		646AE6D324C58B4A00FD2D16 /* StatusBarMessageNotifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusBarMessageNotifications.h; sourceTree = "<group>"; };
+		646AE6D424C58BD100FD2D16 /* UIScreenUIWindowUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIScreenUIWindowUIView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +60,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				646AE6CF24C587E300FD2D16 /* libstdc++.dylib in Frameworks */,
+				646AE6CB24C587E300FD2D16 /* libstdc++.tbd in Frameworks */,
+				646AE6C824C587E300FD2D16 /* libstdc++.6.0.9.tbd in Frameworks */,
+				646AE6C924C587E300FD2D16 /* libstdc++.6.0.9.tbd in Frameworks */,
+				646AE6CD24C587E300FD2D16 /* libstdc++.6.dylib in Frameworks */,
+				646AE6CA24C587E300FD2D16 /* libstdc++.6.tbd in Frameworks */,
+				646AE6CE24C587E300FD2D16 /* libstdc++.6.0.9.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +92,7 @@
 		646AE69F24C57B6C00FD2D16 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				646AE6BD24C587E300FD2D16 /* Xcode升级缺少文件 */,
 				646AE6A024C57B6C00FD2D16 /* AppDelegate.h */,
 				646AE6A124C57B6C00FD2D16 /* AppDelegate.m */,
 				646AE6A324C57B6C00FD2D16 /* ViewController.h */,
@@ -69,8 +103,49 @@
 				646AE6AE24C57B6D00FD2D16 /* Info.plist */,
 				646AE6AF24C57B6D00FD2D16 /* main.m */,
 				646AE6B624C57BC200FD2D16 /* PropertyAndSynthsize.h */,
+				646AE6B724C5806700FD2D16 /* PrintBoolType.h */,
+				646AE6B824C5836E00FD2D16 /* Loadimage.h */,
+				646AE6BA24C5842700FD2D16 /* SmartGitActive.h */,
+				646AE6BB24C5847900FD2D16 /* FrameBoundsCenter.h */,
+				646AE6BC24C5877A00FD2D16 /* ISAPoint.h */,
+				646AE6D024C5882700FD2D16 /* Xml转NSDictionary.h */,
+				646AE6D124C589C100FD2D16 /* DealWithImageArithmetic.h */,
+				646AE6D224C58AAC00FD2D16 /* LazyLoading.h */,
+				646AE6D324C58B4A00FD2D16 /* StatusBarMessageNotifications.h */,
+				646AE6D424C58BD100FD2D16 /* UIScreenUIWindowUIView.h */,
 			);
 			path = Notes;
+			sourceTree = "<group>";
+		};
+		646AE6BD24C587E300FD2D16 /* Xcode升级缺少文件 */ = {
+			isa = PBXGroup;
+			children = (
+				646AE6BE24C587E300FD2D16 /* libstdc++.6.0.9.tbd */,
+				646AE6BF24C587E300FD2D16 /* libstdc++_sim */,
+				646AE6C324C587E300FD2D16 /* 升级教程.rtf */,
+				646AE6C424C587E300FD2D16 /* libstdc++.dylib_sim */,
+			);
+			path = "Xcode升级缺少文件";
+			sourceTree = "<group>";
+		};
+		646AE6BF24C587E300FD2D16 /* libstdc++_sim */ = {
+			isa = PBXGroup;
+			children = (
+				646AE6C024C587E300FD2D16 /* libstdc++.6.0.9.tbd */,
+				646AE6C124C587E300FD2D16 /* libstdc++.6.tbd */,
+				646AE6C224C587E300FD2D16 /* libstdc++.tbd */,
+			);
+			path = "libstdc++_sim";
+			sourceTree = "<group>";
+		};
+		646AE6C424C587E300FD2D16 /* libstdc++.dylib_sim */ = {
+			isa = PBXGroup;
+			children = (
+				646AE6C524C587E300FD2D16 /* libstdc++.6.dylib */,
+				646AE6C624C587E300FD2D16 /* libstdc++.6.0.9.dylib */,
+				646AE6C724C587E300FD2D16 /* libstdc++.dylib */,
+			);
+			path = "libstdc++.dylib_sim";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				646AE6CC24C587E300FD2D16 /* 升级教程.rtf in Resources */,
 				646AE6AD24C57B6D00FD2D16 /* LaunchScreen.storyboard in Resources */,
 				646AE6AA24C57B6D00FD2D16 /* Assets.xcassets in Resources */,
 				646AE6A824C57B6C00FD2D16 /* Main.storyboard in Resources */,
@@ -293,6 +369,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Notes/Xcode升级缺少文件",
+					"$(PROJECT_DIR)/Notes/Xcode升级缺少文件/libstdc++_sim",
+					"$(PROJECT_DIR)/Notes/Xcode升级缺少文件/libstdc++.dylib_sim",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.PersonalONBYL.Notes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -308,6 +390,12 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Notes/Xcode升级缺少文件",
+					"$(PROJECT_DIR)/Notes/Xcode升级缺少文件/libstdc++_sim",
+					"$(PROJECT_DIR)/Notes/Xcode升级缺少文件/libstdc++.dylib_sim",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.PersonalONBYL.Notes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
