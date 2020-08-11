@@ -11,6 +11,7 @@
 
 
 #endif /* SortArithmetic_h */
+
 /*
 //冒泡排序算法
 -(void)bubbleSort{
@@ -19,7 +20,7 @@
     //开始排序
     for (int i = 0; i < arr.count; i++) {
         for (int j = 0; j < arr.count - 1 - i; j++) {
-            //比较数据大小
+            //比较数据大小,升序排序，从后往前有序
             if ([arr[j] intValue]> [arr[j+1] intValue]) {
                 int temp = [arr[j] intValue];
                 arr[j] = arr[j+1];
@@ -35,6 +36,7 @@
     NSMutableArray *arr = [NSMutableArray arrayWithObjects:@"16",@"18",@"6",@"8",@"66", nil];
     //开始排序
     for (int i = 0; i <arr.count; i++) {
+        //升序排序，从前向后排，有序
         for (int j = i + 1; j < arr.count; j++) {
             if ([arr[i] intValue] > [arr[j] intValue]) {
                 int temp = [arr[i] intValue];
@@ -53,6 +55,7 @@
     for (int i = 1; i < arr.count; i++) {
         int j = i;
         int temp = [arr[i] intValue];
+        //对之前有序序列进行比较，插入排序
         while (j > 0 && [arr[j-1] intValue] > temp) {
             arr[j] = arr[j-1];
             //效果同上，将arr[j-1]的值插入可变数组j的位置
@@ -66,6 +69,7 @@
 }
 
 //希尔排序
+//折半插入排序，从中间往前依次排序，有序
 - (void)shellSort{
     NSMutableArray *arr = [NSMutableArray arrayWithObjects:@"16",@"18",@"6",@"8",@"66", nil];
     int gap = arr.count/2.0;
@@ -162,20 +166,27 @@
     NSInteger j = rightIndex;
     NSInteger key = [arr[i] integerValue];
     while (i < j) {
+        //首先从右边j开始查找比基准数小的值
         while (i < j && key < [arr[j] integerValue]) {
             j--;
         }
+        //如果比基准数小，则将查找到的小值调换到i的位置
         arr[i] = arr[j];
+        //当在右边查找到一个比基准数小的值时，就从i开始往后找比基准数大的值
         while (i < j && key > [arr[i] integerValue]) {
             i++;
         }
+        //如果比基准数大，则将查找到的大值调换到j的位置
         arr[j] = arr[i];
     }
     arr[i] = @(key);
-    
+    /// 递归排序
+    //排序基准数左边的
     [self quickSort:arr leftIndex:leftIndex rightIndex:i-1];
+    //排序基准数右边的
     [self quickSort:arr leftIndex:i+1 rightIndex:rightIndex];
 }
- 
- */
+
+
+*/
 
