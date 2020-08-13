@@ -53,8 +53,10 @@
 		646AE6D224C58AAC00FD2D16 /* LazyLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LazyLoading.h; sourceTree = "<group>"; };
 		646AE6D324C58B4A00FD2D16 /* StatusBarMessageNotifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusBarMessageNotifications.h; sourceTree = "<group>"; };
 		646AE6D424C58BD100FD2D16 /* UIScreenUIWindowUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIScreenUIWindowUIView.h; sourceTree = "<group>"; };
+		647496C224E50DA00070AEB4 /* CreateArrray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateArrray.h; sourceTree = "<group>"; };
 		648A4CE224D93D1600457639 /* StringAndCopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringAndCopy.h; sourceTree = "<group>"; };
 		64C8D7ED24E2813700778512 /* SortArithmetic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortArithmetic.h; sourceTree = "<group>"; };
+		64C8D81024E28FFE00778512 /* GetInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetInteger.h; sourceTree = "<group>"; };
 		64D6946224E12FEB00FD6F19 /* MultiThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThread.h; sourceTree = "<group>"; };
 		64ECC2C024CE589F00A8E5EC /* SDKMergeWithScript.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKMergeWithScript.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,6 +123,8 @@
 				648A4CE224D93D1600457639 /* StringAndCopy.h */,
 				64D6946224E12FEB00FD6F19 /* MultiThread.h */,
 				64C8D7ED24E2813700778512 /* SortArithmetic.h */,
+				64C8D81024E28FFE00778512 /* GetInteger.h */,
+				647496C224E50DA00070AEB4 /* CreateArrray.h */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
