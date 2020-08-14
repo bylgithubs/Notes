@@ -143,4 +143,16 @@
     
 }
  
+ - (instancetype)initWithArray:(NSArray<ObjectType> *)array copyItems:(BOOL)flag;
+ 
+ 如果flag为YES，那么就会去调用array中对象的copy方法。
+ 如果flag为NO，只是把数组中的对象做一次retain操作，再赋值给新对象。
+ 
+ - (id)copyWithZone:(nullable NSZone *)zone {
+ Person *p = [Person new];
+ p.name = self.name;
+ p.age = self.age;
+ return p;
+ }
+ 
  */
