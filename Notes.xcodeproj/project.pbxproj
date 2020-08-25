@@ -60,6 +60,7 @@
 		64C9E0F024EBCF3000CA8C0E /* RunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoop.h; sourceTree = "<group>"; };
 		64CBE96224E6233300E3CACE /* CircleReferenceOfTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleReferenceOfTimer.h; sourceTree = "<group>"; };
 		64CBE96324E6712700E3CACE /* CopyAndMutableCopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyAndMutableCopy.h; sourceTree = "<group>"; };
+		64D4B50A24F4FECB00D9E4E0 /* RunTimeAndAOP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTimeAndAOP.h; sourceTree = "<group>"; };
 		64D6946224E12FEB00FD6F19 /* MultiThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThread.h; sourceTree = "<group>"; };
 		64ECC2C024CE589F00A8E5EC /* SDKMergeWithScript.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKMergeWithScript.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,6 +132,7 @@
 				64CBE96224E6233300E3CACE /* CircleReferenceOfTimer.h */,
 				64CBE96324E6712700E3CACE /* CopyAndMutableCopy.h */,
 				64C9E0F024EBCF3000CA8C0E /* RunLoop.h */,
+				64D4B50A24F4FECB00D9E4E0 /* RunTimeAndAOP.h */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
