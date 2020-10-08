@@ -12,7 +12,7 @@
 
 #endif /* SortArithmetic_h */
 
-/*
+
 //冒泡排序算法
 -(void)bubbleSort{
     //未排序数组
@@ -188,5 +188,5 @@
 }
 
 
-*/
+
 

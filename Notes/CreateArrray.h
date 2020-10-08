@@ -12,7 +12,7 @@
 
 #endif /* CreateArrray_h */
 
-/*
+
 - (void)immutableArray{
     NSArray *arr0 = @[@"a",@"b",@"c",@"d",@"e",@"f",@"g"];
     //创建空数组
@@ -154,5 +154,4 @@
  p.age = self.age;
  return p;
  }
- 
- */
+
