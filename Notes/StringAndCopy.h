@@ -11,7 +11,7 @@
 
 
 #endif /* StringAndCopy_h */
-/*
+
  @property (nonatomic,strong) NSString *strCopy;
  
  NSMutableString *str = [NSMutableString stringWithFormat: @"bbbbb"];
@@ -118,4 +118,4 @@
  
  其实block使用copy是MRC时代留下来的传统。 在MRC下, 在方法中的block创建在栈区, 使用copy就能把它放到堆区, 这样在作用域外调用该block程序就不会崩溃.但在ARC下, 使用copy与strong其实都一样,因为block的retain就是用copy来实现的。之所以大家都习惯用copy就是MRC时代留下的习惯。
  
- */
+

@@ -11,7 +11,7 @@
 
 
 #endif /* PropertyAndSynthsize_h */
-/*
+
  @property @synthesize
 1.类中的属性只存在@property修饰，系统会自动生成该属性的get和set方法和带_XX的实例变量；
 2.变量被@property修饰，不能同时重写get和set方法，否则Xcode 会认为我们写的这 get set 方法的属性和@propery 声明的属性不是同一个属性,所以会报错;
@@ -21,5 +21,7 @@
 无需与外部接触的变量，这个也就是所谓的类私有变量。而属性变量是用于与其他对象交互的变量。
 6.@synthesize还有一个作用，可以指定与属性对应的实例变量，例如@synthesize myButton = xxx；那么self.myButton其实是操作的实例变量xxx，而不是_myButton了。
  
-*/
+ 属性是与其他对象交互的变量，会生成默认的setter和getter方法。苹果早期的编译器是GCC，后来发展到LLVM，LLVM在没有匹配实例变量的属性时会自动创建一个带下划线的成员变量。注意：分类中添加的属性是不会自动生成setter和getter方法的，必须要手动添加。如果已经手动实现了get和set方法的话Xcode不会再自动生成带有下划线的私有成员变量了，因为xCode自动生成成员变量的目的就是为了根据成员变量而生成get/set方法的，但是如果get和set方法缺一个的话都会生成带下划线的变量。
+ 
+
 

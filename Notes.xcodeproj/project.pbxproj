@@ -24,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		644DD74F25305FE400F12C54 /* AOP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOP.h; sourceTree = "<group>"; };
 		646AE69D24C57B6C00FD2D16 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		646AE6A024C57B6C00FD2D16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		646AE6A124C57B6C00FD2D16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -135,6 +136,7 @@
 				64C9E0F024EBCF3000CA8C0E /* RunLoop.h */,
 				64D4B50A24F4FECB00D9E4E0 /* RunTimeAndAOP.h */,
 				6474E2E2252EB82E004FF3E3 /* RunLoopAndNSTimer.h */,
+				644DD74F25305FE400F12C54 /* AOP.h */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
