@@ -131,9 +131,11 @@
 - (NSInteger)binSearch:(NSInteger)key array:(NSMutableArray *)arr{
     if (arr == nil || arr.count <=0) {
         NSLog(@"查找数组为空");
+        return -1;
     }
     if (key < [arr[0] integerValue] || key > [arr[arr.count-1] integerValue]) {
         NSLog(@"超出数组数值范围");
+        return -1;
     }
     NSInteger i = 0;
     NSInteger j = arr.count -1;
@@ -179,6 +181,41 @@
         //如果比基准数大，则将查找到的大值调换到j的位置
         arr[j] = arr[i];
     }
+    arr[i] = @(key);
+    /// 递归排序
+    //排序基准数左边的
+    [self quickSort:arr leftIndex:leftIndex rightIndex:i-1];
+    //排序基准数右边的
+    [self quickSort:arr leftIndex:i+1 rightIndex:rightIndex];
+}
+
+//快速排序,优化
+- (void)quickSort:(NSMutableArray *)arr leftIndex:(NSInteger)leftIndex rightIndex:(NSInteger)rightIndex{
+    if (leftIndex >= rightIndex) {
+        NSLog(@"key===%ld,快速排序有序数组:%@",leftIndex,arr);
+        return;
+    }
+    NSInteger i = leftIndex;
+    NSInteger j = rightIndex;
+    NSInteger key = [arr[i] integerValue];
+    while (i < j) {
+        //首先从右边j开始查找比基准数小的值
+        while (i < j && key < [arr[j] integerValue]) {
+            j--;
+        }
+        //当在右边查找到一个比基准数小的值时，就从i开始往后找比基准数大的值
+        while (i < j && key >= [arr[i] integerValue]) {
+            i++;
+        }
+        //交换两个数在数组中的位置
+        if(i<j){
+            [arr exchangeObjectAtIndex:i withObjectAtIndex:j];
+            //            NSInteger temp = [arr[i] integerValue];
+            //            arr[i] = arr[j];
+            //            arr[j] = @(temp);
+        }
+    }
+    arr[leftIndex] = arr[i];
     arr[i] = @(key);
     /// 递归排序
     //排序基准数左边的

@@ -64,6 +64,8 @@
 		64CBE96324E6712700E3CACE /* CopyAndMutableCopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyAndMutableCopy.h; sourceTree = "<group>"; };
 		64D4B50A24F4FECB00D9E4E0 /* RunTimeAndAOP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTimeAndAOP.h; sourceTree = "<group>"; };
 		64D6946224E12FEB00FD6F19 /* MultiThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThread.h; sourceTree = "<group>"; };
+		64E2E06525369D7E0007C4F7 /* PerformSelector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerformSelector.h; sourceTree = "<group>"; };
+		64E2E0682536E47A0007C4F7 /* VariableAndPointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VariableAndPointer.h; sourceTree = "<group>"; };
 		64ECC2C024CE589F00A8E5EC /* SDKMergeWithScript.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKMergeWithScript.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +139,8 @@
 				64D4B50A24F4FECB00D9E4E0 /* RunTimeAndAOP.h */,
 				6474E2E2252EB82E004FF3E3 /* RunLoopAndNSTimer.h */,
 				644DD74F25305FE400F12C54 /* AOP.h */,
+				64E2E06525369D7E0007C4F7 /* PerformSelector.h */,
+				64E2E0682536E47A0007C4F7 /* VariableAndPointer.h */,
 			);
 			path = Notes;
 			sourceTree = "<group>";

@@ -11,7 +11,7 @@
 
 
 #endif /* MultiThread_h */
-/*
+
  
  dispatch_queue_t queue = dispatch_queue_create("test", DISPATCH_QUEUE_CONCURRENT);
  
@@ -60,6 +60,16 @@
  2020-08-10 15:30:24.946314+0800 test6[10127:217615] ======================9==<NSThread: 0x600003b3a940>{number = 1, name = main}
  2020-08-10 15:30:24.946486+0800 test6[10127:217615] =========================================================================
 
- 总结：当一个并行队列中含有同步和异步两种任务时，同步任务按照并行队列中的顺序执行，异步任务可以开辟子线程，执行顺序改变。
+ 个人总结：当一个并行队列中含有同步和异步两种任务时，同步任务按照并行队列中的顺序执行，异步任务可以开辟子线程，执行顺序改变。
  
- */
+实现线程异步：
+     //创建线程
+     NSThread *thread = [[NSThread alloc] initWithTarget:self selector:@selector(run2) object:nil];
+     //启动线程
+     [thread start];
+     //以下两个方法创建并自动启动线程，在子线程中运行
+     [NSThread detachNewThreadSelector:@selector(run1) toTarget:self withObject:nil];
+     [NSThread detachNewThreadWithBlock:^{
+         NSLog(@"run====================newThread---%@",[NSThread currentThread]);
+     }];
+
