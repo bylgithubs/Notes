@@ -72,9 +72,18 @@ typedef void (^AspectHandlerBlock)(id<AspectInfo> aspectInfo);
     return nil;//返回nil，进入下一步转发
 }
 
+/*
+NSStringFromSelector() 将SEL对象转为NSString对象
+ SEL sel=@selector(compare:);
+ NSString *functionName= NSStringFromSelector(sel);
+ 
+ NSSelectorFromString() Cocoa提供NSSelectorFromString,利用OC动态特性是通过String来生成Selectors,NSSelectorFromString动态加载实例方法
+ SEL anotherSel=NSSelectorFromString(functionName);
+ */
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
     if ([NSStringFromSelector(aSelector) isEqualToString:@"foo"]) {
-        return [NSMethodSignature signatureWithObjCTypes:"v@:"];//签名，进入forwardInvocation
+        //v表示返回值为void，@表示该方法接受一个 id 和一个 SEL 。其实每个 Objective-C 方法都把 id 和 SEL 作为头2个参数。最后一个字符 * 表示该方法的一个显式的参数是一个字符串（char *）
+        return [NSMethodSignature signatureWithObjCTypes:"v@:*"];//签名，进入forwardInvocation
     }
     
     return [super methodSignatureForSelector:aSelector];
