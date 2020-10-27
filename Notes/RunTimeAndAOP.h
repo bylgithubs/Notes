@@ -14,7 +14,7 @@
 
 #import "ViewController.h"
 #import "Person.h"
-#import <Aspects/Aspects.h>
+#import <Aspects/Aspects.h> //需导入第三方库 pod 'Aspects', '~> 1.4.1'
 #import <objc/runtime.h>
 
 typedef void (^AspectHandlerBlock)(id<AspectInfo> aspectInfo);

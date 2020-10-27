@@ -36,6 +36,9 @@
  [self performSelectorInBackground:@selector(test) withObject:nil]; //开启新的线程在后台执行test方法
 
 [self performSelector:@selector(test) onThread:[NSThread currentThread] withObject:nil waitUntilDone:YES]; //thread参数是指定执行的线程
+dispatch_async(dispatch_get_global_queue(0, 0), ^{
+    [self performSelectorOnMainThread:@selector(test) withObject:nil waitUntilDone:NO]; //在子线程访问主线程
+});
 
 dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
     [self performSelector:@selector(tests) onThread:[NSThread currentThread] withObject:nil waitUntilDone:NO];

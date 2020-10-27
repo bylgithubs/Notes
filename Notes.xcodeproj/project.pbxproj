@@ -24,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		641EC23425479FDB008BC144 /* Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
 		644DD74F25305FE400F12C54 /* AOP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOP.h; sourceTree = "<group>"; };
 		646AE69D24C57B6C00FD2D16 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		646AE6A024C57B6C00FD2D16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -141,6 +142,7 @@
 				644DD74F25305FE400F12C54 /* AOP.h */,
 				64E2E06525369D7E0007C4F7 /* PerformSelector.h */,
 				64E2E0682536E47A0007C4F7 /* VariableAndPointer.h */,
+				641EC23425479FDB008BC144 /* Notification.h */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
