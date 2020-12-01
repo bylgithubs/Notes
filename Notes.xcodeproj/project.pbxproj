@@ -57,12 +57,14 @@
 		646AE6D424C58BD100FD2D16 /* UIScreenUIWindowUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIScreenUIWindowUIView.h; sourceTree = "<group>"; };
 		647496C224E50DA00070AEB4 /* CreateArrray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateArrray.h; sourceTree = "<group>"; };
 		6474E2E2252EB82E004FF3E3 /* RunLoopAndNSTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopAndNSTimer.h; sourceTree = "<group>"; };
+		64751CB5255E21D50022D0AA /* AFNetworking3.2.1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworking3.2.1.h; sourceTree = "<group>"; };
 		648A4CE224D93D1600457639 /* StringAndCopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringAndCopy.h; sourceTree = "<group>"; };
 		64C8D7ED24E2813700778512 /* SortArithmetic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortArithmetic.h; sourceTree = "<group>"; };
 		64C8D81024E28FFE00778512 /* GetInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetInteger.h; sourceTree = "<group>"; };
 		64C9E0F024EBCF3000CA8C0E /* RunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoop.h; sourceTree = "<group>"; };
 		64CBE96224E6233300E3CACE /* CircleReferenceOfTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleReferenceOfTimer.h; sourceTree = "<group>"; };
 		64CBE96324E6712700E3CACE /* CopyAndMutableCopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyAndMutableCopy.h; sourceTree = "<group>"; };
+		64CED2BC25722B8200412FDC /* ReactiveCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoa.h; sourceTree = "<group>"; };
 		64D4B50A24F4FECB00D9E4E0 /* RunTimeAndAOP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTimeAndAOP.h; sourceTree = "<group>"; };
 		64D6946224E12FEB00FD6F19 /* MultiThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThread.h; sourceTree = "<group>"; };
 		64DB6E24254FAC75000B07C4 /* MethodSignature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodSignature.h; sourceTree = "<group>"; };
@@ -147,6 +149,8 @@
 				641EC23425479FDB008BC144 /* Notification.h */,
 				64DB6E24254FAC75000B07C4 /* MethodSignature.h */,
 				64DB6E25254FE8A3000B07C4 /* Block.h */,
+				64751CB5255E21D50022D0AA /* AFNetworking3.2.1.h */,
+				64CED2BC25722B8200412FDC /* ReactiveCocoa.h */,
 			);
 			path = Notes;
 			sourceTree = "<group>";

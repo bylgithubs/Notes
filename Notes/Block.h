@@ -68,7 +68,7 @@ struct __block_impl {
 };
 
 //block结构体
-struct __main_block_impl_0 {
+struct __main_block_impl_0 {    //_0表示该函数内的第几个block，有_1
   struct __block_impl impl;
   struct __main_block_desc_0* Desc;
   __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, int flags=0) {
@@ -285,3 +285,50 @@ NSLog(@"block返回值为：%@",blockReturn);
 2020-11-06 14:12:55.283689+0800 test4[2900:156311] 匿名block自动调用
 2020-11-06 14:12:55.283851+0800 test4[2900:156311] 带返回值和参赛的匿名block自动调用
 2020-11-06 14:12:55.283973+0800 test4[2900:156311] block返回值为：aa--1
+-----------------------------------------------------------------------------------------------------------------------------
+1.block之前定义对self的弱引用weakSelf,因为是弱引用，所以self被释放时weakSelf会变成nil
+2.在block中引用该弱引用，考虑到多线程情况，通过强引用strongSelf来引用该弱引用，如果self不为nil，就会retain self，以防在block内部使用过程中self被释放
+3.在block块中使用该强引用strongSelf，注意对strongSelf进行nil检测，因为多线程在弱引用weakSelf对强引用strongSelf赋值时，弱引用weakSelf可能已经为nil了
+4.强引用strongSelf在block作用域结束之后，自动释放
+weakSelf为什么需要strongSelf配合使用
+1.在block块中先写一个strongSelf，是为了避免在block的执行过程中，突然出现self被释放的情况。
+-----------------------------------------------------------------------------------------------------------------------------
+CaculateMaker.m
+
+- (CaculateMaker *(^)(CGFloat num))add{
+    return ^CaculateMaker *(CGFloat num){
+        self.result += num;
+        return self;
+    };
+}
+
+- (CaculateMaker *(^)(CGFloat num))minus{
+    return ^CaculateMaker *(CGFloat num){
+        self.result -= num;
+        return self;
+    };
+}
+
+- (CaculateMaker *(^)(CGFloat num))multiply{
+    return ^CaculateMaker *(CGFloat num){
+        self.result *=num;
+        return self;
+    };
+}
+
+- (CaculateMaker *(^)(CGFloat num))divide{
+    return ^CaculateMaker *(CGFloat num){
+        self.result /=num;
+        return self;
+    };
+}
+
+- (CGFloat)getResult{
+    return self.result;
+}
+//调用方法
+CaculateMaker *maker = [[CaculateMaker alloc] init];
+//链式编程
+CGFloat num = maker.add(20).minus(10).multiply(6).divide(5).getResult;
+NSLog(@"------------%f",num);
+个人总结： maker.add调用方法并返回block，maker.add()执行返回的block并返回self，self可以继续调用方法，以此类推，链式调用执行。
