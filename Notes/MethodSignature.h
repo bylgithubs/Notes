@@ -42,6 +42,8 @@ TestClass.m
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector{
     NSLog(@"4----------------%@",[NSThread currentThread]);
 //    NSMethodSignature *signature = [TestClass instanceMethodSignatureForSelector:@selector(sendMessage:para1:para2:)];
+    //第一个字符 v 表明返回值是void类型，第二个字符 @：表明该方法接收一个id和一个SEL，每个Object-C方法都把id和SEL作为头两个参数，
+    //@16@24@32@40@48:表示第3、4、5、6、7个参数。
     return [NSMethodSignature signatureWithObjCTypes:"v56@0:8@16@24@32@40@48"]; //设置方法签名，确定参数数量，7个参数
     //return signature;
 }

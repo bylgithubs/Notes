@@ -65,6 +65,9 @@
 		64CBE96224E6233300E3CACE /* CircleReferenceOfTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleReferenceOfTimer.h; sourceTree = "<group>"; };
 		64CBE96324E6712700E3CACE /* CopyAndMutableCopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyAndMutableCopy.h; sourceTree = "<group>"; };
 		64CED2BC25722B8200412FDC /* ReactiveCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoa.h; sourceTree = "<group>"; };
+		64D0F27925844C4000CBCE34 /*  AppAndUIControllerLifeCycle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = " AppAndUIControllerLifeCycle.h"; sourceTree = "<group>"; };
+		64D0FC162580572D008A0E59 /* OtherFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherFiles.h; sourceTree = "<group>"; };
+		64D133A225884640008C492E /* WebSites.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebSites.h; sourceTree = "<group>"; };
 		64D4B50A24F4FECB00D9E4E0 /* RunTimeAndAOP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTimeAndAOP.h; sourceTree = "<group>"; };
 		64D6946224E12FEB00FD6F19 /* MultiThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThread.h; sourceTree = "<group>"; };
 		64DB6E24254FAC75000B07C4 /* MethodSignature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodSignature.h; sourceTree = "<group>"; };
@@ -111,7 +114,9 @@
 		646AE69F24C57B6C00FD2D16 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				64D133A1258845ED008C492E /* WebSites */,
 				646AE6BD24C587E300FD2D16 /* Xcode升级缺少文件 */,
+				64D0FC162580572D008A0E59 /* OtherFiles.h */,
 				646AE6A024C57B6C00FD2D16 /* AppDelegate.h */,
 				646AE6A124C57B6C00FD2D16 /* AppDelegate.m */,
 				646AE6A324C57B6C00FD2D16 /* ViewController.h */,
@@ -121,6 +126,7 @@
 				646AE6AB24C57B6D00FD2D16 /* LaunchScreen.storyboard */,
 				646AE6AE24C57B6D00FD2D16 /* Info.plist */,
 				646AE6AF24C57B6D00FD2D16 /* main.m */,
+				64D0F27925844C4000CBCE34 /*  AppAndUIControllerLifeCycle.h */,
 				646AE6B624C57BC200FD2D16 /* PropertyAndSynthsize.h */,
 				646AE6B724C5806700FD2D16 /* PrintBoolType.h */,
 				646AE6B824C5836E00FD2D16 /* Loadimage.h */,
@@ -184,6 +190,14 @@
 				646AE6C724C587E300FD2D16 /* libstdc++.dylib */,
 			);
 			path = "libstdc++.dylib_sim";
+			sourceTree = "<group>";
+		};
+		64D133A1258845ED008C492E /* WebSites */ = {
+			isa = PBXGroup;
+			children = (
+				64D133A225884640008C492E /* WebSites.h */,
+			);
+			path = WebSites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

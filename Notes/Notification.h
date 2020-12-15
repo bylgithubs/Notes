@@ -76,7 +76,7 @@ dispatch_async(dispatch_get_global_queue(0, 0), ^{
 2020-10-27 09:31:19.491099+0800 test3[1498:62486] 3========sendNotification========<NSThread: 0x600003021dc0>{number = 6, name = (null)}
 2020-10-27 09:31:22.491857+0800 test3[1498:62486] 4========sendNotification========<NSThread: 0x600003021dc0>{number = 6, name = (null)}
 -----------------------------------------------------------------------------------------------------------------------------------
-postringStyle参数就是定义通知调用和runloop状态之间关系。
+postingStyle参数就是定义通知调用和runloop状态之间关系。
 该参数的三个可选参数：
 1，NSPostWhenIdle：runloop空闲的时候回调通知方法,通知回调方法是等待到当下线程runloop进入等待状态才会调用,即runloop将要进入休眠时调用。
 2，NSPostASAP：runloop能够调用的时候就回调通知方法,通知回调方法是等待到当下线程runloop开始接收事件源的时候就会调用。

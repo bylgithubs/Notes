@@ -134,12 +134,12 @@
 个人总结：当一个串行队列中包含同步和异步两种任务时,同步任务在主线程执行，异步任务会开辟一个子线程，在新开辟的子线程中执行。
 前提条件：串行队列
 1.如果当前在执行dispatch_sync中的任务，会一直执行dispatch_sync类型的任务，直到遇到dispatch_async后，切换执行dispatch_async类型的任务；
-2.如果当前在执行dispatch_async中的任务，会一直执行dispatch_async类型的任务，直到遇到dispatch_sync后，切换执行dispatch_async类型的任务;
+2.如果当前在执行dispatch_async中的任务，会一直执行dispatch_async类型的任务，直到遇到dispatch_sync后，切换执行dispatch_sync类型的任务;
 3.如果当前在执行dispatch_sync中的任务，在遇到下个不连续dispatch_sync时，两个dispatch_sync之间的非CGD代码按顺序执行，不会受dispatch_async代码影响，
 因为非GCD代码未加入到该串行队列中。
 结论：同步任务会“阻塞”当前线程，执行完当前同步任务才会继续执行下面的代码，异步任务不会“阻塞”当前线程，可以继续执行之后的代码。
 注意：主队列其实并不特殊。所有放在主队列中的任务，都会放到主线程中执行。主队列专门负责在主线程上调度任务，不会在子线程上调度任务，在主队列不允许开辟新线程。
-     主队列的实质上就是一个普通的串行队列，只是因为默认情况下，当前代码是放在主队列中的，然后主队列中的代码，有都会放到主线程中去执行，所以才造成了主队列特殊的现象。
+     主队列的实质上就是一个普通的串行队列，只是因为默认情况下，当前代码是放在主队列中的，然后主队列中的代码，又都会放到主线程中去执行，所以才造成了主队列特殊的现象。
      所以，主队列中有同步任务会锁死，异步任务不会创建子线程，仍然在主线程执行。
 注意： 『主线程』 中调用 『主队列』+『同步执行』 会导致死锁问题。
      这是因为 主队列中追加的同步任务 和 主线程本身的任务 两者之间相互等待，阻塞了 『主队列』，最终造成了主队列所在的线程（主线程）死锁问题。
@@ -363,7 +363,7 @@ NSBlockOperation *blockOperation1 = [NSBlockOperation blockOperationWithBlock:^{
     NSLog(@"blockOperation1");
 }];
 NSInvocationOperation *invocationOperation1 = [[NSInvocationOperation alloc] initWithTarget:self selector:@selector(run) object:nil];
-[invocationOperation1 addDependency:blockOperation1];    //添加依赖，先执行blockOperation1,在执行invocationOperation1
+[invocationOperation1 addDependency:blockOperation1];    //添加依赖，先执行blockOperation1,再执行invocationOperation1
 [operationQueue addOperation:blockOperation1];
 [operationQueue addOperation:invocationOperation1];
  

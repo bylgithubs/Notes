@@ -12,43 +12,47 @@
 
 #endif /* SDKMergeWithScript_h */
 
-/*
- 操作步骤:
- 选中项目文件->targets->BuildPhases->点击假图标->选择“New Run Java Script”->在Run Script中输入下方合并SDK的脚本代码。
- 
- 
- if [ "${ACTION}" = "build" ]
- 
- then
- 
- INSTALL_DIR=${SRCROOT}/Products/${PROJECT_NAME}.framework
- 
- DEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework
- 
- SIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework
- 
- if [ -d "${INSTALL_DIR}" ]
- 
- then
- 
- rm -rf "${INSTALL_DIR}"
- 
- fi
- 
- mkdir -p "${INSTALL_DIR}"
- 
- cp -R "${DEVICE_DIR}/" "${INSTALL_DIR}/"
- 
- #ditto "${DEVICE_DIR}/Headers" "${INSTALL_DIR}/Headers"
- 
- lipo -create "${DEVICE_DIR}/${PROJECT_NAME}" "${SIMULATOR_DIR}/${PROJECT_NAME}" -output "${INSTALL_DIR}/${PROJECT_NAME}"
- 
- #open "${DEVICE_DIR}"
- 
- open "${SRCROOT}/Products"
- 
- fi
- 
+1.手动合并sdk文件
+lipo -create /Users/civet/Library/Developer/Xcode/DerivedData/TGTest-ejpyuovdyhhhmofxliuncefdzzof/Build/Products/Debug-iphonesimulator/TGTestSDK.framework/TGTestSDK /Users/civet/Library/Developer/Xcode/DerivedData/TGTest-ejpyuovdyhhhmofxliuncefdzzof/Build/Products/Debug-iphoneos/TGTestSDK.framework/TGTestSDK -output /Users/civet/Desktop/SDKFrameWork/sdk
+
+2.脚本合并sdk文件
+
+操作步骤:
+选中项目文件->targets->BuildPhases->点击“+”图标->选择“New Run Java Script”->在Run Script中输入下方合并SDK的脚本代码。
+
+
+if [ "${ACTION}" = "build" ]
+
+then
+
+INSTALL_DIR=${SRCROOT}/Products/${PROJECT_NAME}.framework
+
+DEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework
+
+SIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework
+
+if [ -d "${INSTALL_DIR}" ]
+
+then
+
+rm -rf "${INSTALL_DIR}"
+
+fi
+
+mkdir -p "${INSTALL_DIR}"
+
+cp -R "${DEVICE_DIR}/" "${INSTALL_DIR}/"
+
+#ditto "${DEVICE_DIR}/Headers" "${INSTALL_DIR}/Headers"
+
+lipo -create "${DEVICE_DIR}/${PROJECT_NAME}" "${SIMULATOR_DIR}/${PROJECT_NAME}" -output "${INSTALL_DIR}/${PROJECT_NAME}"
+
+#open "${DEVICE_DIR}"
+
+open "${SRCROOT}/Products"
+
+fi
+
+
 
  
- */
