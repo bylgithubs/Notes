@@ -68,6 +68,7 @@
 		64D0F27925844C4000CBCE34 /*  AppAndUIControllerLifeCycle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = " AppAndUIControllerLifeCycle.h"; sourceTree = "<group>"; };
 		64D0FC162580572D008A0E59 /* OtherFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherFiles.h; sourceTree = "<group>"; };
 		64D133A225884640008C492E /* WebSites.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebSites.h; sourceTree = "<group>"; };
+		64D1AEC92591C66000199B1B /* StoryboardAndXib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoryboardAndXib.h; sourceTree = "<group>"; };
 		64D4B50A24F4FECB00D9E4E0 /* RunTimeAndAOP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTimeAndAOP.h; sourceTree = "<group>"; };
 		64D6946224E12FEB00FD6F19 /* MultiThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThread.h; sourceTree = "<group>"; };
 		64DB6E24254FAC75000B07C4 /* MethodSignature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodSignature.h; sourceTree = "<group>"; };
@@ -127,6 +128,7 @@
 				646AE6AE24C57B6D00FD2D16 /* Info.plist */,
 				646AE6AF24C57B6D00FD2D16 /* main.m */,
 				64D0F27925844C4000CBCE34 /*  AppAndUIControllerLifeCycle.h */,
+				64D1AEC92591C66000199B1B /* StoryboardAndXib.h */,
 				646AE6B624C57BC200FD2D16 /* PropertyAndSynthsize.h */,
 				646AE6B724C5806700FD2D16 /* PrintBoolType.h */,
 				646AE6B824C5836E00FD2D16 /* Loadimage.h */,
