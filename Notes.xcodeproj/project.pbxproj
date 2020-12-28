@@ -26,6 +26,7 @@
 /* Begin PBXFileReference section */
 		641EC23425479FDB008BC144 /* Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
 		644DD74F25305FE400F12C54 /* AOP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOP.h; sourceTree = "<group>"; };
+		64685BD82593265F00299D8C /* KVCAndKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVCAndKVO.h; sourceTree = "<group>"; };
 		646AE69D24C57B6C00FD2D16 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		646AE6A024C57B6C00FD2D16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		646AE6A124C57B6C00FD2D16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,6 +56,7 @@
 		646AE6D224C58AAC00FD2D16 /* LazyLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LazyLoading.h; sourceTree = "<group>"; };
 		646AE6D324C58B4A00FD2D16 /* StatusBarMessageNotifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusBarMessageNotifications.h; sourceTree = "<group>"; };
 		646AE6D424C58BD100FD2D16 /* UIScreenUIWindowUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIScreenUIWindowUIView.h; sourceTree = "<group>"; };
+		647357F025946A2F00AD68CA /* HTML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTML.h; sourceTree = "<group>"; };
 		647496C224E50DA00070AEB4 /* CreateArrray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateArrray.h; sourceTree = "<group>"; };
 		6474E2E2252EB82E004FF3E3 /* RunLoopAndNSTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopAndNSTimer.h; sourceTree = "<group>"; };
 		64751CB5255E21D50022D0AA /* AFNetworking3.2.1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworking3.2.1.h; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 		64D0F27925844C4000CBCE34 /*  AppAndUIControllerLifeCycle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = " AppAndUIControllerLifeCycle.h"; sourceTree = "<group>"; };
 		64D0FC162580572D008A0E59 /* OtherFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherFiles.h; sourceTree = "<group>"; };
 		64D133A225884640008C492E /* WebSites.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebSites.h; sourceTree = "<group>"; };
+		64D18C922599818300FB6CBF /* HTML5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTML5.h; sourceTree = "<group>"; };
 		64D1AEC92591C66000199B1B /* StoryboardAndXib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoryboardAndXib.h; sourceTree = "<group>"; };
 		64D4B50A24F4FECB00D9E4E0 /* RunTimeAndAOP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTimeAndAOP.h; sourceTree = "<group>"; };
 		64D6946224E12FEB00FD6F19 /* MultiThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThread.h; sourceTree = "<group>"; };
@@ -115,6 +118,7 @@
 		646AE69F24C57B6C00FD2D16 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				647357EF25946A1C00AD68CA /* HTML */,
 				64D133A1258845ED008C492E /* WebSites */,
 				646AE6BD24C587E300FD2D16 /* Xcode升级缺少文件 */,
 				64D0FC162580572D008A0E59 /* OtherFiles.h */,
@@ -159,6 +163,7 @@
 				64DB6E25254FE8A3000B07C4 /* Block.h */,
 				64751CB5255E21D50022D0AA /* AFNetworking3.2.1.h */,
 				64CED2BC25722B8200412FDC /* ReactiveCocoa.h */,
+				64685BD82593265F00299D8C /* KVCAndKVO.h */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -192,6 +197,15 @@
 				646AE6C724C587E300FD2D16 /* libstdc++.dylib */,
 			);
 			path = "libstdc++.dylib_sim";
+			sourceTree = "<group>";
+		};
+		647357EF25946A1C00AD68CA /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				647357F025946A2F00AD68CA /* HTML.h */,
+				64D18C922599818300FB6CBF /* HTML5.h */,
+			);
+			path = HTML;
 			sourceTree = "<group>";
 		};
 		64D133A1258845ED008C492E /* WebSites */ = {
