@@ -81,6 +81,7 @@
 		64E2E0682536E47A0007C4F7 /* VariableAndPointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VariableAndPointer.h; sourceTree = "<group>"; };
 		64ECC2C024CE589F00A8E5EC /* SDKMergeWithScript.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKMergeWithScript.h; sourceTree = "<group>"; };
 		6E77EBF926491E2B00DEE4AF /* SceneDelegateAdaption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegateAdaption.h; sourceTree = "<group>"; };
+		6E77EBFB26492DBE00DEE4AF /* ClearNavigationBgcShadowBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClearNavigationBgcShadowBtn.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +169,7 @@
 				64CED2BC25722B8200412FDC /* ReactiveCocoa.h */,
 				64685BD82593265F00299D8C /* KVCAndKVO.h */,
 				6E77EBF926491E2B00DEE4AF /* SceneDelegateAdaption.h */,
+				6E77EBFB26492DBE00DEE4AF /* ClearNavigationBgcShadowBtn.h */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
