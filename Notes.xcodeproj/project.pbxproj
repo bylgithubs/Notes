@@ -21,7 +21,39 @@
 		646AE6CD24C587E300FD2D16 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 646AE6C524C587E300FD2D16 /* libstdc++.6.dylib */; };
 		646AE6CE24C587E300FD2D16 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 646AE6C624C587E300FD2D16 /* libstdc++.6.0.9.dylib */; };
 		646AE6CF24C587E300FD2D16 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 646AE6C724C587E300FD2D16 /* libstdc++.dylib */; };
+		6E8D4682264A320C00B5C341 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6E8D464F264A320B00B5C341 /* LICENSE */; };
+		6E8D4683264A320C00B5C341 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6E8D4650264A320B00B5C341 /* README.md */; };
+		6E8D4684264A320C00B5C341 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6E8D4651264A320B00B5C341 /* .gitignore */; };
+		6E8D4685264A320C00B5C341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8D4656264A320B00B5C341 /* Assets.xcassets */; };
+		6E8D4686264A320C00B5C341 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D4657264A320B00B5C341 /* ViewController.m */; };
+		6E8D4687264A320C00B5C341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E8D4658264A320B00B5C341 /* LaunchScreen.storyboard */; };
+		6E8D4688264A320C00B5C341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E8D465A264A320B00B5C341 /* Main.storyboard */; };
+		6E8D4689264A320C00B5C341 /* FMVideoPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D465C264A320B00B5C341 /* FMVideoPlayController.m */; };
+		6E8D468A264A320C00B5C341 /* AVAssetWriteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D465F264A320B00B5C341 /* AVAssetWriteManager.m */; };
+		6E8D468B264A320C00B5C341 /* FMWModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D4661264A320B00B5C341 /* FMWModel.m */; };
+		6E8D468C264A320C00B5C341 /* FMWriteVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D4662264A320B00B5C341 /* FMWriteVideoController.m */; };
+		6E8D468D264A320C00B5C341 /* FMWVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D4663264A320B00B5C341 /* FMWVideoView.m */; };
+		6E8D468E264A320C00B5C341 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D4667264A320B00B5C341 /* main.m */; };
+		6E8D468F264A320C00B5C341 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D4668264A320B00B5C341 /* AppDelegate.m */; };
+		6E8D4690264A320C00B5C341 /* FMFileVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D466A264A320B00B5C341 /* FMFileVideoController.m */; };
+		6E8D4691264A320C00B5C341 /* FMFModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D466E264A320C00B5C341 /* FMFModel.m */; };
+		6E8D4692264A320C00B5C341 /* FMFVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D466F264A320C00B5C341 /* FMFVideoView.m */; };
+		6E8D4693264A320C00B5C341 /* FMImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D4672264A320C00B5C341 /* FMImagePicker.m */; };
+		6E8D4694264A320C00B5C341 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E8D4673264A320C00B5C341 /* Info.plist */; };
+		6E8D4695264A320C00B5C341 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D4676264A320C00B5C341 /* UIColor+Hex.m */; };
+		6E8D4696264A320C00B5C341 /* XCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D4677264A320C00B5C341 /* XCFileManager.m */; };
+		6E8D4697264A320C00B5C341 /* FMRecordProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D4678264A320C00B5C341 /* FMRecordProgressView.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E8D4680264A320C00B5C341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E8D467C264A320C00B5C341 /* FMRecordVideo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1DB91FDF1E63C85D00DF1264;
+			remoteInfo = FMRecordVideo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		641EC23425479FDB008BC144 /* Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
@@ -82,6 +114,44 @@
 		64ECC2C024CE589F00A8E5EC /* SDKMergeWithScript.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKMergeWithScript.h; sourceTree = "<group>"; };
 		6E77EBF926491E2B00DEE4AF /* SceneDelegateAdaption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegateAdaption.h; sourceTree = "<group>"; };
 		6E77EBFB26492DBE00DEE4AF /* ClearNavigationBgcShadowBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClearNavigationBgcShadowBtn.h; sourceTree = "<group>"; };
+		6E8D464F264A320B00B5C341 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6E8D4650264A320B00B5C341 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6E8D4651264A320B00B5C341 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		6E8D4654264A320B00B5C341 /* FMVideoPlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMVideoPlayController.h; sourceTree = "<group>"; };
+		6E8D4655264A320B00B5C341 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E8D4656264A320B00B5C341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E8D4657264A320B00B5C341 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E8D4659264A320B00B5C341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E8D465B264A320B00B5C341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E8D465C264A320B00B5C341 /* FMVideoPlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMVideoPlayController.m; sourceTree = "<group>"; };
+		6E8D465D264A320B00B5C341 /* VideoHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoHeader.pch; sourceTree = "<group>"; };
+		6E8D465F264A320B00B5C341 /* AVAssetWriteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAssetWriteManager.m; sourceTree = "<group>"; };
+		6E8D4660264A320B00B5C341 /* FMWVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMWVideoView.h; sourceTree = "<group>"; };
+		6E8D4661264A320B00B5C341 /* FMWModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMWModel.m; sourceTree = "<group>"; };
+		6E8D4662264A320B00B5C341 /* FMWriteVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMWriteVideoController.m; sourceTree = "<group>"; };
+		6E8D4663264A320B00B5C341 /* FMWVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMWVideoView.m; sourceTree = "<group>"; };
+		6E8D4664264A320B00B5C341 /* AVAssetWriteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAssetWriteManager.h; sourceTree = "<group>"; };
+		6E8D4665264A320B00B5C341 /* FMWModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMWModel.h; sourceTree = "<group>"; };
+		6E8D4666264A320B00B5C341 /* FMWriteVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMWriteVideoController.h; sourceTree = "<group>"; };
+		6E8D4667264A320B00B5C341 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E8D4668264A320B00B5C341 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E8D466A264A320B00B5C341 /* FMFileVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMFileVideoController.m; sourceTree = "<group>"; };
+		6E8D466B264A320B00B5C341 /* FMFVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMFVideoView.h; sourceTree = "<group>"; };
+		6E8D466C264A320B00B5C341 /* FMFModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMFModel.h; sourceTree = "<group>"; };
+		6E8D466D264A320B00B5C341 /* FMFileVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMFileVideoController.h; sourceTree = "<group>"; };
+		6E8D466E264A320C00B5C341 /* FMFModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMFModel.m; sourceTree = "<group>"; };
+		6E8D466F264A320C00B5C341 /* FMFVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMFVideoView.m; sourceTree = "<group>"; };
+		6E8D4671264A320C00B5C341 /* FMImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMImagePicker.h; sourceTree = "<group>"; };
+		6E8D4672264A320C00B5C341 /* FMImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMImagePicker.m; sourceTree = "<group>"; };
+		6E8D4673264A320C00B5C341 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E8D4675264A320C00B5C341 /* FMRecordProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMRecordProgressView.h; sourceTree = "<group>"; };
+		6E8D4676264A320C00B5C341 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		6E8D4677264A320C00B5C341 /* XCFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFileManager.m; sourceTree = "<group>"; };
+		6E8D4678264A320C00B5C341 /* FMRecordProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMRecordProgressView.m; sourceTree = "<group>"; };
+		6E8D4679264A320C00B5C341 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		6E8D467A264A320C00B5C341 /* XCFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFileManager.h; sourceTree = "<group>"; };
+		6E8D467B264A320C00B5C341 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E8D467C264A320C00B5C341 /* FMRecordVideo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = FMRecordVideo.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +191,7 @@
 		646AE69F24C57B6C00FD2D16 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				6E8D45FD264A312300B5C341 /* ThirdProject */,
 				64749F36259ABF4D00831856 /* CSS */,
 				647357EF25946A1C00AD68CA /* HTML */,
 				64D133A1258845ED008C492E /* WebSites */,
@@ -230,6 +301,123 @@
 			path = WebSites;
 			sourceTree = "<group>";
 		};
+		6E8D45FD264A312300B5C341 /* ThirdProject */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D45FE264A315400B5C341 /* VideoRecord */,
+			);
+			path = ThirdProject;
+			sourceTree = "<group>";
+		};
+		6E8D45FE264A315400B5C341 /* VideoRecord */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D464E264A320B00B5C341 /* VideoRecord-master */,
+			);
+			path = VideoRecord;
+			sourceTree = "<group>";
+		};
+		6E8D464E264A320B00B5C341 /* VideoRecord-master */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D464F264A320B00B5C341 /* LICENSE */,
+				6E8D4650264A320B00B5C341 /* README.md */,
+				6E8D4651264A320B00B5C341 /* .gitignore */,
+				6E8D4652264A320B00B5C341 /* FMRecordVideo */,
+			);
+			path = "VideoRecord-master";
+			sourceTree = "<group>";
+		};
+		6E8D4652264A320B00B5C341 /* FMRecordVideo */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D4653264A320B00B5C341 /* FMRecordVideo */,
+				6E8D467C264A320C00B5C341 /* FMRecordVideo.xcodeproj */,
+			);
+			path = FMRecordVideo;
+			sourceTree = "<group>";
+		};
+		6E8D4653264A320B00B5C341 /* FMRecordVideo */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D4654264A320B00B5C341 /* FMVideoPlayController.h */,
+				6E8D4655264A320B00B5C341 /* AppDelegate.h */,
+				6E8D4656264A320B00B5C341 /* Assets.xcassets */,
+				6E8D4657264A320B00B5C341 /* ViewController.m */,
+				6E8D4658264A320B00B5C341 /* LaunchScreen.storyboard */,
+				6E8D465A264A320B00B5C341 /* Main.storyboard */,
+				6E8D465C264A320B00B5C341 /* FMVideoPlayController.m */,
+				6E8D465D264A320B00B5C341 /* VideoHeader.pch */,
+				6E8D465E264A320B00B5C341 /* AVAssetWriter */,
+				6E8D4667264A320B00B5C341 /* main.m */,
+				6E8D4668264A320B00B5C341 /* AppDelegate.m */,
+				6E8D4669264A320B00B5C341 /* FileOut */,
+				6E8D4670264A320C00B5C341 /* UIImagePicker */,
+				6E8D4673264A320C00B5C341 /* Info.plist */,
+				6E8D4674264A320C00B5C341 /* Tool */,
+				6E8D467B264A320C00B5C341 /* ViewController.h */,
+			);
+			path = FMRecordVideo;
+			sourceTree = "<group>";
+		};
+		6E8D465E264A320B00B5C341 /* AVAssetWriter */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D465F264A320B00B5C341 /* AVAssetWriteManager.m */,
+				6E8D4660264A320B00B5C341 /* FMWVideoView.h */,
+				6E8D4661264A320B00B5C341 /* FMWModel.m */,
+				6E8D4662264A320B00B5C341 /* FMWriteVideoController.m */,
+				6E8D4663264A320B00B5C341 /* FMWVideoView.m */,
+				6E8D4664264A320B00B5C341 /* AVAssetWriteManager.h */,
+				6E8D4665264A320B00B5C341 /* FMWModel.h */,
+				6E8D4666264A320B00B5C341 /* FMWriteVideoController.h */,
+			);
+			path = AVAssetWriter;
+			sourceTree = "<group>";
+		};
+		6E8D4669264A320B00B5C341 /* FileOut */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D466A264A320B00B5C341 /* FMFileVideoController.m */,
+				6E8D466B264A320B00B5C341 /* FMFVideoView.h */,
+				6E8D466C264A320B00B5C341 /* FMFModel.h */,
+				6E8D466D264A320B00B5C341 /* FMFileVideoController.h */,
+				6E8D466E264A320C00B5C341 /* FMFModel.m */,
+				6E8D466F264A320C00B5C341 /* FMFVideoView.m */,
+			);
+			path = FileOut;
+			sourceTree = "<group>";
+		};
+		6E8D4670264A320C00B5C341 /* UIImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D4671264A320C00B5C341 /* FMImagePicker.h */,
+				6E8D4672264A320C00B5C341 /* FMImagePicker.m */,
+			);
+			path = UIImagePicker;
+			sourceTree = "<group>";
+		};
+		6E8D4674264A320C00B5C341 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D4675264A320C00B5C341 /* FMRecordProgressView.h */,
+				6E8D4676264A320C00B5C341 /* UIColor+Hex.m */,
+				6E8D4677264A320C00B5C341 /* XCFileManager.m */,
+				6E8D4678264A320C00B5C341 /* FMRecordProgressView.m */,
+				6E8D4679264A320C00B5C341 /* UIColor+Hex.h */,
+				6E8D467A264A320C00B5C341 /* XCFileManager.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		6E8D467D264A320C00B5C341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D4681264A320C00B5C341 /* FMRecordVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -275,6 +463,12 @@
 			mainGroup = 646AE69424C57B6C00FD2D16;
 			productRefGroup = 646AE69E24C57B6C00FD2D16 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6E8D467D264A320C00B5C341 /* Products */;
+					ProjectRef = 6E8D467C264A320C00B5C341 /* FMRecordVideo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				646AE69C24C57B6C00FD2D16 /* Notes */,
@@ -282,15 +476,32 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		6E8D4681264A320C00B5C341 /* FMRecordVideo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = FMRecordVideo.app;
+			remoteRef = 6E8D4680264A320C00B5C341 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		646AE69B24C57B6C00FD2D16 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E8D4687264A320C00B5C341 /* LaunchScreen.storyboard in Resources */,
+				6E8D4688264A320C00B5C341 /* Main.storyboard in Resources */,
+				6E8D4683264A320C00B5C341 /* README.md in Resources */,
+				6E8D4684264A320C00B5C341 /* .gitignore in Resources */,
 				646AE6CC24C587E300FD2D16 /* 升级教程.rtf in Resources */,
 				646AE6AD24C57B6D00FD2D16 /* LaunchScreen.storyboard in Resources */,
 				646AE6AA24C57B6D00FD2D16 /* Assets.xcassets in Resources */,
 				646AE6A824C57B6C00FD2D16 /* Main.storyboard in Resources */,
+				6E8D4694264A320C00B5C341 /* Info.plist in Resources */,
+				6E8D4685264A320C00B5C341 /* Assets.xcassets in Resources */,
+				6E8D4682264A320C00B5C341 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,8 +512,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E8D4690264A320C00B5C341 /* FMFileVideoController.m in Sources */,
+				6E8D4697264A320C00B5C341 /* FMRecordProgressView.m in Sources */,
+				6E8D468F264A320C00B5C341 /* AppDelegate.m in Sources */,
+				6E8D468E264A320C00B5C341 /* main.m in Sources */,
 				646AE6A524C57B6C00FD2D16 /* ViewController.m in Sources */,
+				6E8D468A264A320C00B5C341 /* AVAssetWriteManager.m in Sources */,
+				6E8D4695264A320C00B5C341 /* UIColor+Hex.m in Sources */,
+				6E8D4689264A320C00B5C341 /* FMVideoPlayController.m in Sources */,
 				646AE6B024C57B6D00FD2D16 /* main.m in Sources */,
+				6E8D4691264A320C00B5C341 /* FMFModel.m in Sources */,
+				6E8D4696264A320C00B5C341 /* XCFileManager.m in Sources */,
+				6E8D4693264A320C00B5C341 /* FMImagePicker.m in Sources */,
+				6E8D468D264A320C00B5C341 /* FMWVideoView.m in Sources */,
+				6E8D468C264A320C00B5C341 /* FMWriteVideoController.m in Sources */,
+				6E8D4692264A320C00B5C341 /* FMFVideoView.m in Sources */,
+				6E8D468B264A320C00B5C341 /* FMWModel.m in Sources */,
+				6E8D4686264A320C00B5C341 /* ViewController.m in Sources */,
 				646AE6A224C57B6C00FD2D16 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +550,22 @@
 				646AE6AC24C57B6D00FD2D16 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6E8D4658264A320B00B5C341 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E8D4659264A320B00B5C341 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6E8D465A264A320B00B5C341 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E8D465B264A320B00B5C341 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
