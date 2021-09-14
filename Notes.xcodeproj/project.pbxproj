@@ -115,6 +115,7 @@
 		6E77EBF926491E2B00DEE4AF /* SceneDelegateAdaption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegateAdaption.h; sourceTree = "<group>"; };
 		6E77EBFB26492DBE00DEE4AF /* ClearNavigationBgcShadowBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClearNavigationBgcShadowBtn.h; sourceTree = "<group>"; };
 		6E7B4FAC269C155000E6D03B /* CircleCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleCollectionView.h; sourceTree = "<group>"; };
+		6E80460B26F04BED00A9FB56 /* RoundCorner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundCorner.h; sourceTree = "<group>"; };
 		6E8D464F264A320B00B5C341 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6E8D4650264A320B00B5C341 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6E8D4651264A320B00B5C341 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -243,6 +244,7 @@
 				6E77EBF926491E2B00DEE4AF /* SceneDelegateAdaption.h */,
 				6E77EBFB26492DBE00DEE4AF /* ClearNavigationBgcShadowBtn.h */,
 				6E7B4FAC269C155000E6D03B /* CircleCollectionView.h */,
+				6E80460B26F04BED00A9FB56 /* RoundCorner.h */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
