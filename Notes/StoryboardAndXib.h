@@ -25,3 +25,31 @@ TestViewController *testVC = [story instantiateViewControllerWithIdentifier:@"Te
 [self presentViewController:testVC animated:YES completion:^{
     testVC.view.backgroundColor = [UIColor grayColor];
 }];
+
+//app初始化视图
+---------------- didFinishLaunchingWithOptions -----------------
+if (@available(iOS 13.0, *)) {
+    
+} else {
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[UITabBarController alloc] init];
+    [self.window makeKeyAndVisible];
+}
+
+---------------- willConnectToSession -----------------
+if ([scene isKindOfClass:[UIWindowScene class]]) {
+    UIWindowScene *windowScene = (UIWindowScene *)scene;
+    self.window = [[UIWindow alloc] initWithWindowScene:windowScene];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+}
+
+
+//删除storyboard启动图缓存
+NSError *error;
+[NSFileManager.defaultManager removeItemAtPath:[NSString stringWithFormat:@"%@/Library/SplashBoard",NSHomeDirectory()] error:&error];
+if (error) {
+    NSLog(@"Failed to delete launch screen cache: %@",error);
+}
+[NSThread sleepForTimeInterval:5.0];//设置启动页面时间

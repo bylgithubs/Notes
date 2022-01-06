@@ -116,6 +116,7 @@
 		6E73470A272662DF00C6EAA7 /* YYModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
 		6E77EBF926491E2B00DEE4AF /* SceneDelegateAdaption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegateAdaption.h; sourceTree = "<group>"; };
 		6E77EBFB26492DBE00DEE4AF /* ClearNavigationBgcShadowBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClearNavigationBgcShadowBtn.h; sourceTree = "<group>"; };
+		6E7A517D2786E3550080BEC2 /* VariableType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VariableType.h; sourceTree = "<group>"; };
 		6E7B4FAC269C155000E6D03B /* CircleCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleCollectionView.h; sourceTree = "<group>"; };
 		6E80460B26F04BED00A9FB56 /* RoundCorner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundCorner.h; sourceTree = "<group>"; };
 		6E8538EF271FFB0200B37C5A /* GradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
@@ -251,6 +252,7 @@
 				6E5CF026271AD01C00061C3F /* ProvisingProfileConfig.h */,
 				6E8538EF271FFB0200B37C5A /* GradientView.h */,
 				6E73470A272662DF00C6EAA7 /* YYModel.h */,
+				6E7A517D2786E3550080BEC2 /* VariableType.h */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
