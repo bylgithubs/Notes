@@ -119,6 +119,7 @@
 		6E7A517D2786E3550080BEC2 /* VariableType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VariableType.h; sourceTree = "<group>"; };
 		6E7B4FAC269C155000E6D03B /* CircleCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleCollectionView.h; sourceTree = "<group>"; };
 		6E80460B26F04BED00A9FB56 /* RoundCorner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundCorner.h; sourceTree = "<group>"; };
+		6E807FEB27966DA3006EC190 /* CommandLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandLine.h; sourceTree = "<group>"; };
 		6E8538EF271FFB0200B37C5A /* GradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
 		6E8D464F264A320B00B5C341 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6E8D4650264A320B00B5C341 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -253,6 +254,7 @@
 				6E8538EF271FFB0200B37C5A /* GradientView.h */,
 				6E73470A272662DF00C6EAA7 /* YYModel.h */,
 				6E7A517D2786E3550080BEC2 /* VariableType.h */,
+				6E807FEB27966DA3006EC190 /* CommandLine.h */,
 			);
 			path = Notes;
 			sourceTree = "<group>";

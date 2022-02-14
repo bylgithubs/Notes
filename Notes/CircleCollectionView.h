@@ -168,5 +168,10 @@
 
 @end
 
+//自定义UICollectionViewCell尺寸delegate
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
+    return CGSizeMake(DWF(80), DWF(60));
+}
+
 
 #endif /* CircleCollectionView_h */

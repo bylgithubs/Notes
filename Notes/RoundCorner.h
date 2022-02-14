@@ -38,5 +38,18 @@ typedef NS_OPTIONS(NSUInteger, UIRectCorner) {
     [self.layer addSublayer:borderLayer];
 }
 
+- (void)addRoundedCorners:(UIRectCorner)corners
+                withRadii:(CGSize)radii
+                 viewRect:(CGRect)rect {
+    
+    UIBezierPath* rounded = [UIBezierPath bezierPathWithRoundedRect:rect byRoundingCorners:corners cornerRadii:radii];
+    CAShapeLayer* shape = [[CAShapeLayer alloc] init];
+    [shape setPath:rounded.CGPath];
+    
+    self.shadowBgView.layer.mask = shape;
+}
+
+例： [self addRoundedCorners:UIRectCornerBottomLeft | UIRectCornerBottomRight withRadii:CGSizeMake(20, 20) viewRect:CGRectMake(0, 0, viewWidth, viewHeight)];
+
 
 #endif /* RoundCorner_h */
